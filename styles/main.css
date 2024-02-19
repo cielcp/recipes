@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Create a class that will serve as a container for your elements, set margin, padding, and width */
+/* Apply the container class throughout your HTML to each of these sections: <header>, <footer>, <section>*/
+.container {
+    margin: auto; /* Add vertical space between elements */
+    padding: 20px; /* Add padding to the sections. */
+    width: 80%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo-container {
+    display: inline;
+}
+
+.logo-container > h1 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.logo-container > h2 {
+    margin: 0px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #AEB3B7;
+}
+
+.short-line {
+    width: 80%;
+    height: 1px;
+    background-color: #AEB3B7;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-image {
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Create a primary-footer class to further specify the look-and-feel of the footer and set top and bottom padding. Then, add the class to the <footer> */
+.primary-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items:center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Set the copyright footer to float left: create a copyright class and set the float property to be left. Add the copyright class to the <small> tag. */
+.copyright {
+    float: left;
+}
+
+.highlight {
+    text-align: center;
+    flex-basis: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-left: 40px;
+    font-family: 'Montserrat';
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color:#565759;
+}
+a.current {
+    color:black;
+}
+h3 a {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+header h2 {
+    font-size: 16px;
+}
+h3 {
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+}
+
+button {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background-color: #23401F;
+    color: #FBFCFD;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+}
+
+form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

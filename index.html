@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Ciel Park and Hannah Park">
+    <meta name="description" content="A website to find easy korean recipes!">
+    <meta name="keywords" content="recipes, cooking, easy, korean">
+
+    <!-- Open Graph metadata -->
+    <meta property="og:title" content="BAP Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://cs4640.cs.virginia.edu/ccp7gcp/hw2/images/bap.png">
+    <meta property="og:url" content="https://cs4640.cs.virginia.edu/ccp7gcp/hw2/index.html">
+    <meta property="og:description" content="Discover delicious and easy Korean recipes!">
+    <meta property="og:site_name" content="BAP">
+
+    <title>BAP Home</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header class="container flex-row navbar">
+        <div class="logo-container">
+            <h1>BAP</h1>
+            <h2>Simple Korean Comfort Food</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="line"></div>
+
+    <section class="container flex-row">
+        <div class="hero-text">
+            <h2>Our recipes</h2>
+            <p>Explore our collection of simple Korean recipes that give you a taste of home! <br><br> BAP offers a
+                variety of authentic, easy, and delicious recipes that are perfect for any type of meal at any time of
+                day.<br><br></p>
+            <form action="recipes.html">
+                <button>See all recipes</button>
+            </form>
+        </div>
+        <img class="hero-image" src="images/bibimbap.jpg" alt="Two bowls of bibimbap with lots of banchan, topped with fried egg.">
+        <br>
+    </section>
+
+    <div style="display: flex; justify-content: center;">
+        <div class="short-line"></div>
+    </div>
+
+    <section class="container flex-column;">
+        <h2>Popular recipes</h2>
+        <div class="flex-row">
+            <section class="highlight">
+                <img src="images/tteokbokki.jpg" alt="A bowl of tteokbokki with half a boiled egg and green onions." width="200" height="200">
+                <div>
+                    <h3><a href="tteokbokki.html">Tasty tteokbokki</a></h3>
+                    <p>Learn how to make a quick and simple tteokbokki (spicy rice cake) dish!</p>
+                </div>
+            </section>
+            <section class="highlight">
+                <img src="images/kimbap.jpg" alt="A plate of kimbap with egg, spinach, cucumber, carrot, fishcake, and beef." width="200" height="200">
+                <div>
+                    <h3><a href="kimbap.html">Fishcake kimbap</a></h3>
+                    <p>Quick and easy kimbap recipe to share with family and friends</p>
+                </div>
+            </section>
+            <section class="highlight">
+                <img src="images/bulgogi.jpg" alt="A plate of bulgogi, topped with green onion."  width="200" height="200">
+                <div>
+                    <h3><a href="bulgogi.html">Beef bulgogi</a></h3>
+                    <p>Enjoy this super simple beef bulgogi recipe for a perfect weeknight dinner</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <footer class="container flex-row primary-footer">
+        <small class="copyright">
+            &copy; Ciel Park and Hannah Park
+        </small>
+        <nav>
+            <ul>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
